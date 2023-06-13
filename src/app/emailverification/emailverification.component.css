@@ -1,0 +1,89 @@
+
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+
+/* .form-gap {
+  height:100px;
+} */
+
+html, body {
+    /* height: 100vh; */
+    font-family: 'Numans', sans-serif;
+    /* margin: 50;
+    padding: 50; */
+    /* background-image: url("../../assets/images/snow-landscape.jpg"); */
+    
+    overflow: hidden;
+    
+  }
+  .container {
+    /* margin-top: 80px; */
+    /* background-image: url("../../assets/images/snow-landscape.jpg"); */
+    background-size: 100%;
+    
+    /* background-position: center; */
+    height: 100vh;
+  }
+  
+   body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden; 
+    background-image: url('https://images.pexels.com/photos/989785/pexels-photo-989785.jpeg?cs=srgb&dl=snow-landscape-nature-989785.jpg&fm=jpg'); 
+    /* background-image: url('https://images.pexels.com/photos/989785/pexels-photo-989785.jpeg?cs=srgb&dl=snow-landscape-nature-989785.jpg&fm=jpg');  */
+    background-size:cover;
+    background-repeat: no-repeat;
+  } 
+  
+ 
+
+.panel-default {
+  border-color: #696565;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+
+.panel-body {
+  padding: 40px;
+ 
+}
+
+  
+
+
+.text-center {
+  margin-bottom: 15px;
+}
+
+.fa-lock {
+  font-size: 72px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* .form-group {
+  margin-bottom: 10px;
+} */
+
+/* .input-group-addon {
+  background-color: #f0f0f0;
+  border: none;
+} */
+
+.color-blue {
+  color: rgb(32, 82, 83);
+}
+
+.btn-primary {
+  background-color: rgb(8, 60, 80);
+  border-color: rgb(20, 73, 75);
+}
+
+.btn-primary:hover {
+  background-color: rgb(25, 128, 122);
+  border-color: rgb(32, 48, 53);
+}
